@@ -99,7 +99,7 @@ jobs:
       # - name: Send swagger coverage report
       #   if: ${{ always() }}
       #   run: |
-      #     poetry run python -m packages.notifier.bot
+      #     poetry run python -m tg_notifier.bot
 
       - name: Archive allure results
         uses: actions/upload-artifact@v4
