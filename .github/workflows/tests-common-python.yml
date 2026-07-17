@@ -151,4 +151,4 @@ jobs:
         uses: actions/deploy-pages@v4
 
       - name: Output report link
-        run: echo "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+        run: echo "https://sdet-org.github.io/REST_API_test_automation_Advanced/"
